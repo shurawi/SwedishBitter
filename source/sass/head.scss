@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+.head__wrap {
+  margin: 20px auto;
+}
+
+.head__list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.head__link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}

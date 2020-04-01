@@ -7,95 +7,115 @@
     <meta name="format-detection" content="telephone=no">
     <link href="css/style.min.css" rel="stylesheet">
     <link href="//db.onlinewebfonts.com/c/5fc6f4fd75e944a52a342ab2c7f100f1?family=Montserrat" rel="stylesheet" type="text/css"/>
-    <script src="https://kit.fontawesome.com/167aeea35b.js" crossorigin="anonymous"></script>
+    <!--<script src="https://kit.fontawesome.com/167aeea35b.js" crossorigin="anonymous"></script>-->
   </head>
   <body>
     <header>
-      <nav class="head__nav">
-        <ul class="head__list">
-          <li class="head__item">
-            <a class="head__link head__link--logo" href="#">
-              <img src="img/logo-mibile.jpg" width="" height="" alt="логотип шведского сиропа">
-            </a>
-          </li>
-          <li class="head__item">
-            <a class="head__link" href="tel:8800 000-00-00">8800 000-00-00</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="head__wrap wrap">
+        <nav class="head__nav">
+          <ul class="head__list">
+            <li class="head__item">
+              <a class="head__link head__link--logo" href="#">
+                <img src="img/logo-mobile.jpg" width="110" height="16" alt="логотип шведского сиропа">
+              </a>
+            </li>
+            <li class="head__item">
+              <a class="head__link" href="tel:8800 000-00-00">8800 000-00-00</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <h1>Интересная и полезная информация о бальзаме - Шведская горечь</h1>
+      <h1 class="visually-hidden">Интересная и полезная информация о бальзаме - Шведская горечь</h1>
       <section class="banner">
-        <span class="banner__span">Сбор трав</span>
-        <h2 class="banner__title">Шведская  горечь</h2>
+        <div class="banner__wrap wrap">
+          <div class="banner__text">
+            <span class="banner__span">Сбор трав</span>
+            <h2 class="banner__head">Шведская  горечь</h2>
+          </div>
+          <div class="banner__pic">
+            <img class="banner__img" src="img/head-pack-mobile.png" width="86" height="188" alt="">
+          </div>
+        </div>
+        <button class="banner__btn btn" type="button" name="button">Узнать больше</button>
       </section>
       <section class="statistics">
-        <div class="statistics__wrap">
+        <div class="statistics__wrap wrap">
           <ul class="statistics__list">
-            <li class="statistics__item">
-              <h3 class="statistics__title">1978 г.</h3>
+            <li class="statistics__item statistics__item--europeans">
+              <h3 class="statistics__head">1978 г.</h3>
               <p class="statistics__paragraph">Европейцы используют шведскую горечь еще с 1978 года</p>
             </li>
-            <li class="statistics__item">
-              <h3 class="statistics__title">104 года</h3>
+            <li class="statistics__item statistics__item--autor">
+              <h3 class="statistics__head">104 года</h3>
               <p class="statistics__paragraph">104 года прожил автор бальзама</p>
             </li>
-            <li class="statistics__item">
-              <h3 class="statistics__title">40 показаний</h3>
+            <li class="statistics__item statistics__item--index">
+              <h3 class="statistics__head">40 показаний</h3>
               <p class="statistics__paragraph">Больше 40 показаний к применению</p>
             </li>
-            <li class="statistics__item">
-              <h3 class="statistics__title">24 языка</h3>
+            <li class="statistics__item statistics__item--lang">
+              <h3 class="statistics__head">24 языка</h3>
               <p class="statistics__paragraph">8 млн книг на 24 языках продано о бальзаме</p>
             </li>
           </ul>
         </div>
       </section>
       <section class="catalog">
-        <div class="catalog__wrap">
+        <div class="catalog__wrap wrap">
+          <h2 class="catalog__head">Что из этого списка вы находите у себя?</h2>
           <form class="catalog__form" action="index.html" method="post">
-            <fieldset class="catalog__field">
+            <fieldset class="catalog__field catalog__field--head">
               <ul class="catalog__list">
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="01" value="" id="01">
+                  <span class="catalog__span">01.</span>
                   <label class="catalog__label" for="01">Сниженный тонус, не хватает  энергии</label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="02" value="" id="02">
+                  <span class="catalog__span">02.</span>
                   <label class="catalog__label" class="catalog__label" for="02">Прыщи, бородавки и растяжки</label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="03" value="" id="03">
+                  <span class="catalog__span">03.</span>
                   <label class="catalog__label" for="03">Слабая память и концентрация</label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="" value="" id="04" id="05">
-                  <label class="catalog__label" for="0504">Болеете чаще раза в год?Головные боли</label>
+                  <span class="catalog__span">04.</span>
+                  <label class="catalog__label" for="04">Болеете чаще раза в год?</label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="" value="" id="05">
+                  <span class="catalog__span">05.</span>
                   <label class="catalog__label" for="05">Головные боли</label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="catalof__field">
+            <fieldset class="catalog__field catalog__field--footer">
               <ul class="catalog__list catalog__list--footer">
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="" value="" id="06">
-                  <label class="catalog__label" for="06"></label>
+                  <span class="catalog__span">06.</span>
+                  <label class="catalog__label" for="06">Синяки, шишки, ожоги, порезы долго не проходят </label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="" value="" id="07">
-                  <label class="catalog__label" for="07"></label>
+                  <span class="catalog__span">07.</span>
+                  <label class="catalog__label" for="07">Плохо засыпаете и часто просыпаетесь</label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="" value="" id="08">
-                  <label class="catalog__label" for="08"></label>
+                  <span class="catalog__span">08.</span>
+                  <label class="catalog__label" for="08">Проблемы с желудком</label>
                 </li>
                 <li class="catalog__item">
                   <input class="catalog__check" type="checkbox" name="" value="" id="09">
-                  <label class="catalog__label" for="09"></label>
+                  <span class="catalog__span">09.</span>
+                  <label class="catalog__label" for="09">Стресс</label>
                 </li>
               </ul>
             </fieldset>
@@ -103,7 +123,7 @@
               <p class="catalog__paragraph">Более 2 000 покупателей доказали эффективность «Шведской горечи» в каждом из этих случаев</p>
               <a class="catalog__link" href="#">Читать отзывы</a>
             </div>
-            <button type="submit" name="catalog__btn">избавиться от проблем</button>
+            <button class="catalog__btn btn" type="submit" name="catalog__btn">избавиться от проблем</button>
           </form>
         </div>
       </section>

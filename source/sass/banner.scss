@@ -1,0 +1,39 @@
+@import "variables.scss";
+
+.banner__wrap {
+  padding-bottom: 30px;
+  background: url("../img/head-back-mobile.jpg") no-repeat;
+  color: #ffffff;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+}
+
+.banner__text {
+  padding-top: 35px;
+}
+
+.banner__span {
+  display: inline-block;
+  padding: 0 100px 15px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner__head {
+  padding: 0 15px;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.banner__pic {
+  margin: 30px 100px 0;
+  width: 86px;
+  height: 188px;
+}
+
+.banner__btn {
+  display: block;
+}
