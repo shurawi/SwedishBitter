@@ -1,0 +1,46 @@
+@import "variables.scss";
+
+.guarantee__head {
+  padding-top: 55px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.guarantee__title {
+  padding: 15px 10px 0;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.guarantee__inner {
+  margin-top: 20px;
+}
+
+.guarantee__span {
+  display: block;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  color: #a4c58c;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.guarantee__paragraph {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.guarantee__btn {
+  margin-top: 25px;
+}

@@ -36,6 +36,7 @@ p {
   margin: 0;
 }
 
+ul,
 img {
   margin: 0;
   padding: 0;
@@ -73,6 +74,7 @@ img {
 }
 
 .btn {
+  display: block;
   width: 320px;
   height: 58px;
   margin: 0 auto;

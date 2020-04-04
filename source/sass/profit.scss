@@ -1,0 +1,59 @@
+@import "variables.scss";
+
+.profit__wrap {
+  padding-top: 50px;
+  background-color: #f6f9f3;
+}
+
+.profit__head {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.profit__list {
+  padding-bottom: 25px;
+}
+
+.profit__item {
+  position: relative;
+  margin: 60px;
+  text-align: center;
+  list-style: none;
+}
+
+.profit__title {
+  font-size: 130px;
+  line-height: 20px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  color: #ffffff;
+}
+
+.profit__pic {
+  position: absolute;
+}
+
+.profit__pic--herb {
+  top: -34px;
+  left: 45px;
+}
+
+.profit__pic--book {
+  top: -22px;
+  left: 35px;
+}
+
+.profit__pic--certificate {
+  top: -26px;
+  left: 47px;
+}
+
+.profit__paragraph {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+}

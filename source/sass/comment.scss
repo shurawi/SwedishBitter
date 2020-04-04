@@ -1,0 +1,94 @@
+@import "variables.scss";
+
+.comment__wrap {
+  background-color: #f6f9f3;
+}
+
+.comment__head {
+  padding-top: 55px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.comment__button {
+  width: 145px;
+  height: 65px;
+  font-size: 10px;
+  line-height: 18px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.comment__button--enable {
+  color: #7eb152;
+  background-color: #f6f9f3;
+}
+
+.comment__button--disable {
+  color: #c3c3c3;
+  background-color: #ffffff;
+}
+
+.comment__list {
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.comment__item {
+  position: relative;
+  margin-bottom: 40px;
+
+  &::before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: "";
+    width: 31px;
+    height: 3px;
+    background-color: #7eb152;
+  }
+}
+
+.comment__paragraph {
+  font-size: 14px;
+  line-height: 22px;
+  color: #c3c3c3;
+}
+
+.comment__autor {
+  font-size: 14px;
+  line-height: 36px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+}
+
+.comment__link {
+  display: block;
+  font-size: 14px;
+  line-height: 22px;
+  color: #7eb152;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.comment__container {
+  margin-bottom: 25px;
+}
+
+.comment__container--disable {
+  display: none;
+}
+
+.comment__btn {
+  padding: 0 30px;
+}

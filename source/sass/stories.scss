@@ -1,0 +1,80 @@
+@import "variables.scss";
+
+.stories__head {
+  padding: 55px 10px 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.stories__paragraph {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.stories__pic {
+  width: 320px;
+  height: 388px;
+  background-color: #545154;
+}
+
+.stories__paragraph--form {
+  padding: 30px;
+  line-height: 22px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stories__input {
+  margin: 0 auto 30px;
+  padding: 0 74px;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #a8c48c;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #a8c48c;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 23px;
+    color: #a8c48c;
+  }
+}
+
+.stories__text {
+  margin: 50px 0;
+  padding: 0;
+}
+
+.stories__paragraph--quote {
+  margin: 0;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.stories__cite {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 0 85px;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  text-align: center;
+}
+
+.stories__span {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #9a9a9a;
+  text-align: center;
+}

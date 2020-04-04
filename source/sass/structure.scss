@@ -1,0 +1,127 @@
+@import "variables.scss";
+
+.structure__wrap {
+  padding: 70px 0 0;
+  background-color: #f6f9f3;
+}
+
+.structure__head {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.structure__paragraph {
+  padding: 15px 46px 0 35px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.structure__img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.structure__item {
+  position: relative;
+  margin-top: 10px;
+  height: 297px;
+  background-color: #ffffff;
+}
+
+.structure__span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 27px;
+  color: #a4c58c;
+  transform: rotate(-90deg);
+}
+
+.structure__span--num {
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: 5px;
+}
+
+.structure__span--text {
+  position: relative;
+  display: block;
+  right: -125px;
+}
+
+.structure__span--archangelica {
+  bottom: 135px;
+}
+
+.structure__span--acaulis {
+  bottom: 139px;
+}
+
+.structure__span--camphora {
+  bottom: 124px;
+}
+
+.structure__span--ornus {
+  bottom: 124px;
+}
+
+.structure__span--molmol {
+  bottom: 114px;
+}
+
+.structure__span--palmatum {
+  bottom: 125px;
+}
+
+.structure__span--sativus {
+  bottom: 128px;
+}
+
+.structure__span--angustifolia {
+  bottom: 120px;
+}
+
+.structure__span--absinthium {
+  bottom: 141px;
+}
+
+.structure__span--zedoaria {
+  bottom: 128px;
+}
+
+.structure__span--venezian {
+  bottom: 137px;
+}
+
+.structure__span--main {
+  position: relative;
+  padding: 130px 140px 0 50px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(0);
+  z-index: 2;
+}
+
+.structure__span--question {
+  position: absolute;
+  top: 136px;
+  left: 83px;
+  font-size: 276px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  transform: rotate(0);
+  z-index: 1;
+}
+
+.structure__paragraph--footer {
+  line-height: 24px;
+  padding: 46px 50px;
+}

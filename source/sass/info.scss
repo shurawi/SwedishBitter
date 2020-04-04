@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+.info__list {
+  margin: 25px 0;
+  list-style: none;
+}
+
+.info__item {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.info__link {
+  font-size: 12px;
+  line-height: 22px;
+  color: #9a9a9a;
+}

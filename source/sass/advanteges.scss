@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+.advanteges__wrap {
+  padding-top: 50px;
+}
+
+.advanteges__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.advanteges__head {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advanteges__list {
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.advanteges__item {
+  position: relative;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 8px;
+    height: 13px;
+    background: url("../img/icon-arrow-right.svg") no-repeat;
+  }
+}
+
+.advanteges__pic {
+  width: 320px;
+  height: 244px;
+  background-color: #f9e2d3;
+}
+
+.advanteges__paragraph {
+  margin: 0 auto;
+  padding: 40px 40px 35px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
