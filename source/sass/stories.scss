@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .stories__head {
-  padding: 55px 10px 0;
+  padding: 55px 20px 0;
   font-size: 20px;
   line-height: 26px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -11,6 +11,7 @@
 
 .stories__paragraph {
   margin-top: 20px;
+  padding: 0 10px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -50,7 +51,7 @@
 
 .stories__text {
   margin: 50px 0;
-  padding: 0;
+  padding: 0 10px;
 }
 
 .stories__paragraph--quote {

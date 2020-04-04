@@ -4,7 +4,8 @@
   padding-top: 50px;
 }
 
-.advanteges__title {
+.advanteges__head {
+  padding: 0 10px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -12,8 +13,9 @@
   text-align: center;
 }
 
-.advanteges__head {
+.advanteges__title {
   margin-top: 15px;
+  padding: 0 10px;
   font-size: 12px;
   line-height: 24px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -23,7 +25,7 @@
 }
 
 .advanteges__list {
-  padding: 0;
+  padding: 0 10px;
   list-style: none;
   font-size: 14px;
   line-height: 22px;
@@ -54,7 +56,7 @@
 
 .advanteges__paragraph {
   margin: 0 auto;
-  padding: 40px 40px 35px;
+  padding: 40px 50px 35px;
   font-size: 14px;
   line-height: 24px;
   text-align: center;

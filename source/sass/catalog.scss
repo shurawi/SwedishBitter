@@ -5,9 +5,17 @@
 
 }
 
+.catalog__head {
+  padding: 0 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  font-weight: 900;
+}
+
 .catalog__field {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   border: none;
 }
 
@@ -26,13 +34,6 @@
   display: flex;
   justify-content: flex-start;
 
-}
-
-.catalog__head {
-  font-size: 24px;
-  line-height: 30px;
-  font-family: "Montserrat-Bold", "Arial", sans-serif;
-  font-weight: 900;
 }
 
 .catalog__check {
@@ -60,7 +61,7 @@
 }
 
 .catalog__text {
-  margin-top: 20px;
+  margin: 20px 10px 0;
   padding: 30px 15px 0;
   display: flex;
   flex-direction: column;
@@ -83,6 +84,5 @@
 }
 
 .catalog__btn {
-  width: 300px;
   margin-top: 20px;
 }

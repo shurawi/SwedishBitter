@@ -6,6 +6,7 @@
 }
 
 .structure__head {
+  padding: 0 10px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -14,22 +15,23 @@
 }
 
 .structure__paragraph {
-  padding: 15px 46px 0 35px;
+  padding: 15px 56px 0 35px;
   font-size: 14px;
   line-height: 22px;
+}
+
+.structure__item {
+  position: relative;
+  margin-top: 10px;
+  padding: 0 10px;
+  height: 297px;
+  background-color: #ffffff;
 }
 
 .structure__img {
   display: block;
   margin: 0 auto;
   padding-top: 50px;
-}
-
-.structure__item {
-  position: relative;
-  margin-top: 10px;
-  height: 297px;
-  background-color: #ffffff;
 }
 
 .structure__span {
@@ -122,6 +124,7 @@
 }
 
 .structure__paragraph--footer {
-  line-height: 24px;
   padding: 46px 50px;
+  line-height: 24px;
+  text-align: center;
 }
