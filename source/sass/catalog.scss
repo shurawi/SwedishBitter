@@ -1,22 +1,38 @@
 @import "variables.scss";
 
-.catalog__form {
-  margin-top: 25px;
-
-}
-
 .catalog__head {
   padding: 0 10px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 95px;
+    padding: 0 200px;
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
+
+.catalog__form {
+  margin-top: 25px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 50px;
+  }
+}
+
 
 .catalog__field {
   margin: 0;
   padding: 0 10px;
   border: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 50px;
+  }
 }
 
 .catalog__field--head {
@@ -29,12 +45,31 @@
   list-style: none;
 }
 
+.catalog__list--footer {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .catalog__item {
   padding-top: 15px;
   display: flex;
   justify-content: flex-start;
 
 }
+
+ .catalog__item--footer {
+   @media (min-width: $tablet-width) {
+     width: 40%;
+   }
+ }
+
+ .catalog__item--footer:nth-child(2n) {
+   @media (min-width: $tablet-width) {
+     margin-left: 129px;
+   }
+ }
 
 .catalog__check {
   display: none;
@@ -47,6 +82,10 @@
   line-height: 20px;
   font-weight: 700;
   border-bottom: 1px solid #a4c58c;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+  }
 }
 
 .catalog__span {
@@ -54,10 +93,41 @@
   color: #a4c58c;
   font-size: 12px;
   line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+  }
 }
 
 .catalog__check:checked ~ .catalog__span {
   color: red;
+}
+
+.catalog__img {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.catalog__inner {
+  @media (min-width: $tablet-width) {
+    margin-top: 15px;
+  }
+}
+
+.catalog__border {
+  @media (min-width: $tablet-width) {
+    position: relative;
+
+    margin: -160px auto 0;
+    padding: 20px;
+    width: 420px;
+    height: 200px;
+    background-color: #f6f9f3;
+  }
 }
 
 .catalog__text {
@@ -66,6 +136,11 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #a4c58c;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    padding-bottom: 35px;
+  }
 }
 
 .catalog__paragraph {
@@ -85,4 +160,9 @@
 
 .catalog__btn {
   margin-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    width: 420px;
+  }
 }

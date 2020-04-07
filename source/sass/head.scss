@@ -3,6 +3,24 @@
 .head__wrap {
   margin: 20px auto;
   padding: 0 10px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+    height: 105px;
+  }
+}
+
+.head__item {
+  @media (min-width: $tablet-width) {
+    margin-top: 32px;
+  }
+}
+
+.head__item--logo {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .head__list {
@@ -17,4 +35,44 @@
   font-size: 14px;
   color: #000000;
   text-decoration: none;
+}
+
+.head__link--phone {
+  @media (min-width: $tablet-width) {
+    position: relative;
+    font-size: 20px;
+    line-height: 23px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 5px;
+      left: -60px;
+      width: 15px;
+      height: 15px;
+      background: url("../img/icon-phone.svg");
+    }
+  }
+}
+
+.head__img {
+  width: 100%;
+  height: auto;
+}
+
+.head__span {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    font-size: 14px;
+    line-height: 23px;
+    color: #9a9a9a;
+  }
+}
+
+.head__span--logo {
+  @media (min-width: $tablet-width) {
+    margin-left: 25px;
+  }
 }

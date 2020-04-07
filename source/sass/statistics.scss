@@ -3,19 +3,42 @@
 .statistics__wrap {
   padding: 0 50px 0 60px;
   margin-bottom: 45px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px 0 125px;
+  }
 }
 
 .statistics__list {
   margin-top: 10px;
   padding: 0;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .statistics__item {
+  margin-top: 90px;
   padding-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media (min-width: $tablet-width)  {
+    width: 41%;
+    padding: 0;
+  }
+}
+
+.statistics__item:nth-child(2n) {
+  @media (min-width: $tablet-width)  {
+
+  }
 }
 
 .statistics__item--europeans {
@@ -36,10 +59,39 @@
   line-height: 22px;
   text-transform: uppercase;
   border-bottom: 2px solid #a4c58c;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: normal;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: -40px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: #e4eddc;
+    }
+  }
+}
+
+.statistics__span {
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    text-transform: lowercase;
+  }
 }
 
 .statistics__paragraph {
   padding-top: 20px;
   font-size: 16px;
-  line-height: 24px
+  line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+  }
 }

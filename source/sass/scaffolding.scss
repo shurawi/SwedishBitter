@@ -87,4 +87,21 @@ img {
   text-align: center;
   outline: none;
   border: none;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+  }
 }
+
+/*.btn__span {
+  @media (min-width: $tablet-width) {
+    &::after {
+      position: absolute;
+      width: 31px;
+      height: 9px;
+      content: '';
+      background: url("../img/icon-arrow.svg");
+      fill: red;
+    }
+  }
+}*/

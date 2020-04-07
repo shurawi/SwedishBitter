@@ -3,13 +3,27 @@
 .banner__wrap {
   padding: 0 10px 30px;
   background: url("../img/head-back-mobile.jpg") no-repeat;
+  background-color: #586f89;
   color: #ffffff;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    background: url("../img/head-back-tablet.jpg") no-repeat;
+  }
 }
 
 .banner__text {
   padding-top: 35px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 384px;
+    padding-top: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .banner__span {
@@ -18,6 +32,12 @@
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    font-size: 14px;
+    line-height: 23px;
+  }
 }
 
 .banner__head {
@@ -26,10 +46,104 @@
   line-height: 36px;
   letter-spacing: 1px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 30px 0 0 0;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+
+.banner__paragraph {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .banner__pic {
   margin: 30px 100px 0;
   width: 86px;
   height: 188px;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    margin: -275px 20px 0;
+    width: 296px;
+    height: 648px;
+  }
+}
+
+.banner__img {
+  width: 100%;
+  height: auto;
+}
+
+.banner__form {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    display: block;
+    width: 570px;
+    height: 300px;
+    margin: -300px 0 0 175px;
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: 3;
+  }
+}
+
+.banner__border {
+  @media (min-width: $tablet-width) {
+    border: 2px solid #c8dcba;
+  }
+}
+
+.banner__title {
+  @media (min-width: $tablet-width) {
+    margin: 45px 310px 0 45px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+}
+
+.banner__input {
+  @media (min-width: $tablet-width) {
+    margin: 35px 30px 0 35px;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #a8c48c;
+    border: none;
+    border-bottom: 2px solid #a8c48c;
+    outline: none;
+
+    &::placeholder {
+      font-size: 14px;
+      line-height: 22px;
+      color: #a8c48c;
+    }
+  }
+}
+
+.banner__buttom {
+  @media (min-width: $tablet-width) {
+    display: block;
+    width: 250px;
+    margin: 30px 0 0 auto;
+  }
+}
+
+.banner__btn {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }

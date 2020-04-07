@@ -13,13 +13,18 @@
       <div class="head__wrap wrap">
         <nav class="head__nav">
           <ul class="head__list">
-            <li class="head__item">
+            <li class="head__item head__item--logo">
               <a class="head__link head__link--logo" href="#">
-                <img src="img/logo-mobile.jpg" width="110" height="16" alt="логотип шведского сиропа">
+                <picture>
+                  <source srcset="img/logo-tablet.png" media="(min-width: 767px)">
+                  <img class="head__img" src="img/logo-mobile.jpg" width="110" height="16" alt="логотип шведского сиропа">
+                </picture>
               </a>
+              <span class="head__span head__span--logo">Доставка по всей России</span>
             </li>
-            <li class="head__item">
-              <a class="head__link" href="tel:8800 000-00-00">8800 000-00-00</a>
+            <li class="head__item head__item--phone">
+              <a class="head__link head__link--phone" href="tel:8800 000-00-00">8800 000-00-00</a>
+              <span class="head__span head__span--phone">Звонок бесплатный</span>
             </li>
           </ul>
         </nav>
@@ -32,10 +37,22 @@
           <div class="banner__text">
             <span class="banner__span">Сбор трав</span>
             <h2 class="banner__head">Шведская  горечь</h2>
+            <p class="banner__paragraph">Не имеет аналогов в мире по оздоровительной силе и широте лечебных свойств</p>
           </div>
           <div class="banner__pic">
-            <img class="banner__img" src="img/head-pack-mobile.png" width="86" height="188" alt="">
+            <picture>
+              <source srcset="img/head-pack-tablet.png" media="(min-width: 767px)">
+              <img class="banner__img" src="img/head-pack-mobile.png" width="86" height="188" alt="">
+            </picture>
           </div>
+          <form class="banner__form" action="index.html" method="post">
+            <div class="banner__border">
+              <h3 class="banner__title">Узнайте подробнее о бальзаме</h3>
+              <input class="banner__input" type="text" name="" value="" placeholder="Имя">
+              <input class="banner__input" type="tel" name="" value="" placeholder="Телефон">
+              <button class="banner__buttom btn" type="submit" name="button"><span class="btn__span">Узнать</span></button>
+            </div>
+          </form>
         </div>
         <button class="banner__btn btn" type="button" name="button">Узнать больше</button>
       </section>
@@ -43,19 +60,19 @@
         <div class="statistics__wrap wrap">
           <ul class="statistics__list">
             <li class="statistics__item statistics__item--europeans">
-              <h3 class="statistics__head">1978 г.</h3>
+              <h3 class="statistics__head">1978 <span class="statistics__span">г.</span></h3>
               <p class="statistics__paragraph">Европейцы используют шведскую горечь еще с 1978 года</p>
             </li>
             <li class="statistics__item statistics__item--autor">
-              <h3 class="statistics__head">104 года</h3>
+              <h3 class="statistics__head">104 <span class="statistics__span">года</span></h3>
               <p class="statistics__paragraph">104 года прожил автор бальзама</p>
             </li>
             <li class="statistics__item statistics__item--index">
-              <h3 class="statistics__head">40 показаний</h3>
+              <h3 class="statistics__head">40 <span class="statistics__span">показаний</span></h3>
               <p class="statistics__paragraph">Больше 40 показаний к применению</p>
             </li>
             <li class="statistics__item statistics__item--lang">
-              <h3 class="statistics__head">24 языка</h3>
+              <h3 class="statistics__head">24 <span class="statistics__span">языка</span></h3>
               <p class="statistics__paragraph">8 млн книг на 24 языках продано о бальзаме</p>
             </li>
           </ul>
@@ -96,31 +113,36 @@
             </fieldset>
             <fieldset class="catalog__field catalog__field--footer">
               <ul class="catalog__list catalog__list--footer">
-                <li class="catalog__item">
+                <li class="catalog__item catalog__item--footer">
                   <input class="catalog__check" type="checkbox" name="" value="" id="06">
                   <span class="catalog__span">06.</span>
                   <label class="catalog__label" for="06">Синяки, шишки, ожоги, порезы долго не проходят </label>
                 </li>
-                <li class="catalog__item">
+                <li class="catalog__item catalog__item--footer">
                   <input class="catalog__check" type="checkbox" name="" value="" id="07">
                   <span class="catalog__span">07.</span>
                   <label class="catalog__label" for="07">Плохо засыпаете и часто просыпаетесь</label>
                 </li>
-                <li class="catalog__item">
+                <li class="catalog__item catalog__item--footer">
                   <input class="catalog__check" type="checkbox" name="" value="" id="08">
                   <span class="catalog__span">08.</span>
                   <label class="catalog__label" for="08">Проблемы с желудком</label>
                 </li>
-                <li class="catalog__item">
+                <li class="catalog__item catalog__item--footer">
                   <input class="catalog__check" type="checkbox" name="" value="" id="09">
                   <span class="catalog__span">09.</span>
                   <label class="catalog__label" for="09">Стресс</label>
                 </li>
               </ul>
             </fieldset>
-            <div class="catalog__text">
-              <p class="catalog__paragraph">Более 2 000 покупателей доказали эффективность «Шведской горечи» в каждом из этих случаев</p>
-              <a class="catalog__link" href="#">Читать отзывы</a>
+            <div class="catalog__inner">
+              <img class="catalog__img" src="img/catalog-back-tablet.jpg" width="500" height="689" alt="">
+              <div class="catalog__border">
+                <div class="catalog__text">
+                  <p class="catalog__paragraph">Более 2 000 покупателей доказали эффективность «Шведской горечи» в каждом из этих случаев</p>
+                  <a class="catalog__link" href="#">Читать отзывы</a>
+                </div>
+              </div>
             </div>
             <button class="catalog__btn btn" type="submit" name="catalog__btn">избавиться от проблем</button>
           </form>
