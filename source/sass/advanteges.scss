@@ -11,6 +11,12 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 100px;
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 .advanteges__title {
@@ -22,13 +28,26 @@
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .advanteges__list {
+  margin-bottom: 15px;
   padding: 0 10px;
   list-style: none;
   font-size: 14px;
   line-height: 22px;
+  margin-bottom: 10px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
 }
 
 .advanteges__item {
@@ -46,12 +65,38 @@
     height: 13px;
     background: url("../img/icon-arrow-right.svg") no-repeat;
   }
+
+  @media (min-width: $tablet-width) {
+    margin: 20px 100px 0;
+    font-size: 16px;
+    line-height: 22px;
+
+    &::before {
+      left: -15px;
+    }
+  }
 }
 
-.advanteges__pic {
-  width: 320px;
-  height: 244px;
-  background-color: #f9e2d3;
+.advanteges__img {
+  width: 100%;
+  height: auto;
+}
+
+.advanteges__inner {
+  @media (min-width: $tablet-width) {
+    position: relative;
+    margin: -165px auto 0;
+    padding: 20px;
+    width: 602px;
+    height: 254px;
+    background-color: #f6f9f3;
+  }
+}
+
+.advanteges__text {
+  @media (min-width: $tablet-width) {
+    border: 2px solid #c8dcba;
+  }
 }
 
 .advanteges__paragraph {
@@ -60,4 +105,16 @@
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 35px 120px 35px 35px;
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.advanteges__btn {
+  @media (min-width: $tablet-width) {
+    width: 557px;
+  }
 }

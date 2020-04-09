@@ -2,7 +2,6 @@
 
 .profit__wrap {
   padding: 50px 10px 0;
-
   background-color: #f6f9f3;
 }
 
@@ -12,43 +11,108 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 .profit__list {
   padding-bottom: 25px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 35px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
 }
 
 .profit__item {
-  position: relative;
-  margin: 60px;
+  margin: 50px 0 90px;;
   text-align: center;
-  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    margin: 0;
+    padding: 10px 0 20px;
+    width: 32%;
+    height: auto;
+    border: 2px solid #f6f9f3;
+  }
 }
 
 .profit__title {
   font-size: 130px;
-  line-height: 20px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    font-size: 110px;
+    color: #f6f9f3;
+  }
 }
 
 .profit__pic {
-  position: absolute;
+  position: relative;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+  }
 }
 
 .profit__pic--herb {
-  top: -34px;
-  left: 45px;
+  margin-top: -153px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    top: 43px;
+    left: 85px;
+  }
 }
 
 .profit__pic--book {
-  top: -22px;
-  left: 35px;
+  margin-top: -143px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    top: 52px;
+    left: 78px;
+  }
 }
 
 .profit__pic--certificate {
-  top: -26px;
-  left: 47px;
+  margin-top: -145px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    top: 47px;
+    left: 82px;
+  }
+}
+
+.porfit__img--herb {
+  @media (min-width: $tablet-width) {
+    width: 63px;
+    height: 63px;
+  }
+}
+
+.porfit__img--book {
+  @media (min-width: $tablet-width) {
+    width: 72px;
+    height: 53px;
+  }
+}
+
+.porfit__img--certificate {
+  @media (min-width: $tablet-width) {
+    width: 61px;
+    height: 53px;
+  }
 }
 
 .profit__paragraph {
@@ -57,4 +121,9 @@
   line-height: 20px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 10px;
+  }
 }

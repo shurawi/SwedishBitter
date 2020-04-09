@@ -159,10 +159,17 @@
             <li class="advanteges__item">Эффект от применения можно увидеть сразу</li>
           </ul>
           <div class="advanteges__pic">
-            <img class="advanteges__img" src="img/advanteges-back-mobile.jpg" width="320" height="244" alt="">
+            <picture>
+              <source srcset="img/advanteges-back-tablet.jpg" media="(min-width: 767px)">
+              <img class="advanteges__img" src="img/advanteges-back-mobile.jpg" width="320" height="244" alt="">
+            </picture>
           </div>
-          <p class="advanteges__paragraph">Даже в странах с очень высоким уровнем медицины, таких как Германия и Австрия, бальзам Шведская Горечь продается в каждой аптеке!</p>
-          <button class="advanteges__btn btn" type="button" name="button">Получить к себе в аптечку</button>
+          <div class="advanteges__inner">
+            <div class="advanteges__text">
+              <p class="advanteges__paragraph">Даже в странах с очень высоким уровнем медицины, таких как Германия и Австрия, бальзам Шведская Горечь продается в каждой аптеке!</p>
+              <button class="advanteges__btn btn" type="button" name="button">Получить к себе в аптечку</button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="stories">
@@ -173,9 +180,12 @@
           <p class="stories__paragraph">В конце прошлого века рецепт попал к известной австрийской травнице Марии Трэбэн, которая, изучив и дополнив его, популяризовала в странах Европы. Теперь сбор трав «Шведская горечь» помогает людям по всему миру.</p>
           <div class="stories__inner">
             <div class="stories__pic">
-              <img class="stories__img" src="img/stories-back-mobile.jpg" width="320" height="388" alt="">
+              <picture>
+                <source srcset="img/stories-back-tablet.jpg" media="(min-width: 767px)">
+                <img class="stories__img" src="img/stories-back-mobile.jpg" width="320" height="388" alt="">
+              </picture>
             </div>
-            <form class="" action="index.html" method="post">
+            <form class="stories__form" action="index.html" method="post">
               <p class="stories__paragraph stories__paragraph--form">Оставьте свою почту и получайте рецепты молодости и здоровья каждую неделю</p>
               <input class="stories__input" type="email" name="" value="" placeholder="E-mail">
               <button class="stories__btn btn" type="submit" name="button">оставить почту</button>
@@ -191,29 +201,29 @@
       <section class="profit">
         <div class="profit__wrap wrap">
           <h2 class="profit__head">Что вы получите вместе со сбором трав «Шведская горечь»?</h2>
-          <ul class="profit__list">
-            <li class="profit__item">
+          <div class="profit__list">
+            <div class="profit__item">
               <span class="profit__title">01</span>
-              <object class="profit__pic profit__pic--herb" type="image/svg+xml" data="img/icon-herb.svg">
-                <img src="img/icon-herb.svg" width="85" height="85" alt="">
-              </object>
               <p class="profit__paragraph">сбор трав</p>
-            </li>
-            <li class="profit__item">
+              <object class="profit__pic profit__pic--herb" type="image/svg+xml" data="icon-herb.svg">
+                <img class="porfit__img porfit__img--herb" src="img/icon-herb.svg" width="85" height="85" alt="">
+              </object>
+            </div>
+            <div class="profit__item">
               <span class="profit__title">02</span>
-              <object class="profit__pic profit__pic--book" type="image/svg+xml" data="img/icon-book.svg">
-                <img src="img/icon-book.svg" width="97" height="70" alt="">
-              </object>
               <p class="profit__paragraph">инструкция по применению</p>
-            </li>
-            <li class="profit__item">
-              <span class="profit__title">03</span>
-              <object class="profit__pic profit__pic--certificate" type="image/svg+xml" data="img/icon-certificate.svg">
-                <img src="img/icon-certificate.svg" width="82" height="70" alt="">
+              <object class="profit__pic profit__pic--book" type="image/svg+xml" data="icon-herb.svg">
+                <img class="porfit__img porfit__img--book" src="img/icon-book.svg" width="97" height="70" alt="">
               </object>
+            </div>
+            <div class="profit__item">
+              <span class="profit__title">03</span>
               <p class="profit__paragraph">сертификат качества</p>
-            </li>
-          </ul>
+              <object  class="profit__pic profit__pic--certificate" type="image/svg+xml" data="icon-herb.svg">
+                <img class="porfit__img porfit__img--certificate" src="img/icon-certificate.svg" width="82" height="70" alt="">
+              </object>
+            </div>
+          </div>
         </div>
       </section>
       <section class="structure">
@@ -221,64 +231,68 @@
           <h2 class="structure__head">Состав «Шведской горечи»</h2>
           <p class="structure__paragraph">Все травы, входящие в сбор, собраны в альпийском запо-веднике «Гуркталь» и имеют немецкий сертификат качества.</p>
           <p class="structure__paragraph">Строго выверенные пропорции каждого компонента в составе</p>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 01</span>
-            <img class="structure__img structure__img--archangelica" src="img/structure-angelica-archangelica.jpg"  width="171" height="247" alt="">
-            <span  class="structure__span structure__span--text structure__span--archangelica">Angelica archangelica</span>
+          <div class="structure__list">
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 01</span>
+              <img class="structure__img structure__img--archangelica" src="img/structure-angelica-archangelica.jpg"  width="171" height="247" alt="">
+              <span  class="structure__span structure__span--text structure__span--archangelica">Angelica archangelica</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 02</span>
+              <img class="structure__img structure__img--acaulis" src="img/structure-carlina-acaulis.jpg"  width="188" height="251" alt="">
+              <span  class="structure__span structure__span--text structure__span--acaulis">Carlina acaulis</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 03</span>
+              <img class="structure__img structure__img--camphora" src="img/structure-cunnamomum-camphora.jpg" width="211" height="237" alt="">
+              <span  class="structure__span structure__span--text structure__span--camphora">Cunnamomum camphora</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 04</span>
+              <img class="structure__img structure__img--ornus" src="img/structure-fraxinus-ornus.jpg" width="210" height="234" alt="">
+              <span  class="structure__span structure__span--text structure__span--ornus">Fraxinus ornus</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 05</span>
+              <img class="structure__img structure__img--molmol" src="img/structure-cammiphora-molmol.jpg" width="134" height="226" alt="">
+              <span  class="structure__span structure__span--text structure__span--molmol">Cammiphora molmol</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 06</span>
+              <img class="structure__img structure__img--palmatum" src="img/structure-pheum-palmatum.jpg" width="183" height="239" alt="">
+              <span  class="structure__span structure__span--text structure__span--palmatum">Pheum palmatum</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 07</span>
+              <img class="structure__img structure__img--sativus" src="img/structure-crocus-sativus.jpg" width="108" height="242" alt="">
+              <span  class="structure__span structure__span--text structure__span--sativus">Crocus sativus</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 08</span>
+              <img class="structure__img structure__img--angustifolia" src="img/structure-cassia-angustifolia.jpg" width="181" height="233" alt="">
+              <span  class="structure__span structure__span--text structure__span--angustifolia">Cassia angustifolia</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 09</span>
+              <img class="structure__img structure__img--absinthium" src="img/structure-artemisia-absinthium.jpg" width="160" height="253" alt="">
+              <span  class="structure__span structure__span--text structure__span--absinthium">Artemisia absinthium</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 10</span>
+              <img class="structure__img structure__img--zedoaria" src="img/structure-curcuma-zedoaria.jpg" width="145" height="240" alt="">
+              <span  class="structure__span structure__span--text structure__span--zedoaria">Curcuma zedoaria</span>
+            </div>
+            <div class="structure__item">
+              <span class="structure__span structure__span--num">— 11</span>
+              <span  class="structure__span structure__span--main">Часть  рецепта  до сих пор  находится  в секрете</span>
+              <span  class="structure__span structure__span--question">?</span>
+              <span  class="structure__span structure__span--text structure__span--venezian">Theriak venezian</span>
+            </div>
           </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 02</span>
-            <img class="structure__img structure__img--acaulis" src="img/structure-carlina-acaulis.jpg"  width="188" height="251" alt="">
-            <span  class="structure__span structure__span--text structure__span--acaulis">Carlina acaulis</span>
+          <div class="structure__text">
+            <p class="structure__paragraph structure__paragraph--footer">Все травы в составе бальзама обладают сильным очищающим воздействием, при этом каждый из компонентов усиливает дейс-твие остальных. </p>
+            <button class="structure__btn btn" type="button" name="button">заказать сбор трав</button>
           </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 03</span>
-            <img class="structure__img structure__img--camphora" src="img/structure-cunnamomum-camphora.jpg" width="211" height="237" alt="">
-            <span  class="structure__span structure__span--text structure__span--camphora">Cunnamomum camphora</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 04</span>
-            <img class="structure__img structure__img--ornus" src="img/structure-fraxinus-ornus.jpg" width="210" height="234" alt="">
-            <span  class="structure__span structure__span--text structure__span--ornus">Fraxinus ornus</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 05</span>
-            <img class="structure__img structure__img--molmol" src="img/structure-cammiphora-molmol.jpg" width="134" height="226" alt="">
-            <span  class="structure__span structure__span--text structure__span--molmol">Cammiphora molmol</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 06</span>
-            <img class="structure__img structure__img--palmatum" src="img/structure-pheum-palmatum.jpg" width="183" height="239" alt="">
-            <span  class="structure__span structure__span--text structure__span--palmatum">Pheum palmatum</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 07</span>
-            <img class="structure__img structure__img--sativus" src="img/structure-crocus-sativus.jpg" width="108" height="242" alt="">
-            <span  class="structure__span structure__span--text structure__span--sativus">Crocus sativus</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 08</span>
-            <img class="structure__img structure__img--angustifolia" src="img/structure-cassia-angustifolia.jpg" width="181" height="233" alt="">
-            <span  class="structure__span structure__span--text structure__span--angustifolia">Cassia angustifolia</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 09</span>
-            <img class="structure__img structure__img--absinthium" src="img/structure-artemisia-absinthium.jpg" width="160" height="253" alt="">
-            <span  class="structure__span structure__span--text structure__span--absinthium">Artemisia absinthium</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 10</span>
-            <img class="structure__img structure__img--zedoaria" src="img/structure-curcuma-zedoaria.jpg" width="145" height="240" alt="">
-            <span  class="structure__span structure__span--text structure__span--zedoaria">Curcuma zedoaria</span>
-          </div>
-          <div class="structure__item">
-            <span class="structure__span structure__span--num">— 11</span>
-            <span  class="structure__span structure__span--main">Часть  рецепта  до сих пор  находится  в секрете</span>
-            <span  class="structure__span structure__span--question">?</span>
-            <span  class="structure__span structure__span--text structure__span--venezian">Theriak venezian</span>
-          </div>
-          <p class="structure__paragraph structure__paragraph--footer">Все травы в составе бальзама обладают сильным очищающим воздействием, при этом каждый из компонентов усиливает дейс-твие остальных. </p>
-          <button class="structure__btn btn" type="button" name="button">заказать сбор трав</button>
         </div>
       </section>
       <section class="comment">

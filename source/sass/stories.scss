@@ -7,6 +7,12 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 120px 80px 0;
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 .stories__paragraph {
@@ -14,12 +20,44 @@
   padding: 0 10px;
   font-size: 14px;
   line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+}
+
+.stories__inner {
+  margin-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+  }
 }
 
 .stories__pic {
-  width: 320px;
-  height: 388px;
+  @media (min-width: $tablet-width) {
+    order: 2;
+  }
+}
+
+.stories__img {
+  width: 100%;
+  height: auto;
   background-color: #545154;
+}
+
+.stories__form {
+  @media (min-width: $tablet-width) {
+    width: 47%;
+    height: 396px;
+    flex-grow: 2;
+    align-self: flex-end;
+    background-color: #f6f9f3;
+    order: 1;
+  }
 }
 
 .stories__paragraph--form {
@@ -29,6 +67,12 @@
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    padding: 60px 90px 0 60px;
+    font-size: 14px;
+    text-align: left;
+  }
 }
 
 .stories__input {
@@ -39,6 +83,7 @@
   text-align: center;
   color: #a8c48c;
   outline: none;
+  background-color: #f6f9f3;
   border: none;
   border-bottom: 1px solid #a8c48c;
 
@@ -47,11 +92,27 @@
     line-height: 23px;
     color: #a8c48c;
   }
+
+  @media (min-width: $tablet-width) {
+    margin-left: 60px;
+    padding: 40px 0 0;
+    width: 280px;
+    text-align: left;
+  }
+}
+
+.stories__btn {
+  @media (min-width: $tablet-width) {
+    margin-top: 40px;
+    width: 280px;
+  }
 }
 
 .stories__text {
-  margin: 50px 0;
-  padding: 0 10px;
+  margin: 50px 20px 0 10px;
+  padding: 100px 10px 50px;
+  border-top: 2px solid #7eb252;
+  border-bottom: 2px solid #7eb252;
 }
 
 .stories__paragraph--quote {
@@ -59,6 +120,14 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 130px;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: normal;
+  }
 }
 
 .stories__cite {
@@ -69,6 +138,14 @@
   line-height: 18px;
   font-style: normal;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 45px;
+    padding-left: 205px;
+    padding-right: 0;
+    font-size: 16px;
+    line-height: 30px;
+  }
 }
 
 .stories__span {
@@ -78,4 +155,8 @@
   line-height: 30px;
   color: #9a9a9a;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    display: inline;
+  }
 }
