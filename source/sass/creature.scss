@@ -1,18 +1,40 @@
 @import "variables.scss";
 
+.creature__text {
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin: 65px;
+    padding: 65px 30px 65px 55px;
+    text-align: left;
+    border: 2px solid #c8dcba;
+  }
+}
+
 .creature__head {
   padding-top: 55px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
-  text-align: center;
+
+
+  @media (min-width: $tablet-width) {
+    padding: 0 0 50px;
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 
 .creature__paragraph {
   padding: 20px 10px 0;
   font-size: 14px;
   line-height: 22px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 0 20px;
+    font-size: 16px;
+  }
 }
 
 .creature__span {
@@ -22,11 +44,20 @@
   line-height: 20px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
-  text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 0 25px;
+    font-size: 14px;
+  }
 }
 
 .creature__btn {
   margin-top: 35px;
   padding: 0 50px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 10px;
+    width: 100%;
+  }
 }

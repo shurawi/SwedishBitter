@@ -1,8 +1,24 @@
 @import "variables.scss";
 
 .info__list {
+  @media (min-width: $tablet-width) {
+    margin: 0 20px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.info__list--text {
   margin: 25px 0;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .info__item {
@@ -10,8 +26,54 @@
   text-align: center;
 }
 
+.info__item--logo {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.info__item--phone {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
 .info__link {
   font-size: 12px;
   line-height: 22px;
   color: #9a9a9a;
+}
+
+.info__link--phone {
+  @media (min-width: $tablet-width) {
+    position: relative;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000000;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 5px;
+      left: -60px;
+      width: 15px;
+      height: 15px;
+      background: url("../img/icon-phone.svg");
+    }
+  }
+}
+
+.info__span {
+  @media (min-width: $tablet-width) {
+    display: block;
+    font-size: 14px;
+    line-height: 23px;
+    color: #9a9a9a;
+    text-align: right;
+  }
 }

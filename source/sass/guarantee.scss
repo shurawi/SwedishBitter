@@ -1,5 +1,11 @@
 @import "variables.scss";
 
+.guarantee__wrap {
+  @media (min-width: $tablet-width) {
+    background-color: #f6f9f3;
+  }
+}
+
 .guarantee__head {
   padding-top: 55px;
   font-size: 24px;
@@ -7,6 +13,13 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 55px 0 45px;
+    font-size: 40px;
+    line-height: 50px;
+    background-color: #ffffff;
+  }
 }
 
 .guarantee__title {
@@ -17,10 +30,42 @@
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    padding: 40px 125px;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .guarantee__inner {
   margin-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin: 20px 22px 0;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.guarantee__img {
+  width: 100%;
+  height: auto;
+}
+
+.guarantee__container {
+  @media (min-width: $tablet-width) {
+    width: 414px;
+    background-color: #ffffff;
+  }
+}
+
+.guarantee__text {
+  @media (min-width: $tablet-width) {
+    margin: 20px;
+    border: 2px solid #c8dcba;
+  }
 }
 
 .guarantee__span {
@@ -40,8 +85,19 @@
   padding: 0 10px;
   font-size: 14px;
   line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    padding: 20px 15px 0 30px;
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 .guarantee__btn {
   margin-top: 25px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 67px;
+    width: 100%;
+  }
 }

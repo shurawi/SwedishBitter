@@ -331,14 +331,16 @@
           <button class="comment__btn btn" type="button" name="button">Присоединиться к тем, кто решил свои проблемы</button>
         </div>
       </section>
-    </div>
       <section class="creature">
         <div class="creature__wrap wrap">
-          <h2 class="creature__head">Вы принимаете участие в создании эликсира</h2>
-          <p class="creature__paragraph">Приготовление бальзама потребует от вас минимум усилий. Достаточно залить травы 1,5 литрами водки и на-стоять в течение 14 дней ежедневно взбалтывая. </p>
-          <p class="creature__paragraph">Но даже такое небольшое количество действий даст вам возможность почув-ствовать себя настоящим врачевателем и привнесет вашу энергетику в полу-чившийся целительный эликсир.</p>
-          <span class="creature__span">Настоя одной упаковки хватает на 4-5 месяцев</span>
-          <button class="creature__btn btn" type="button" name="button">создать эликсир молодости и здоровья</button>
+          <div class="creature__text">
+            <h2 class="creature__head">Вы принимаете участие в создании эликсира</h2>
+            <p class="creature__paragraph">Приготовление бальзама потребует от вас минимум усилий. Достаточно залить травы 1,5 литрами водки и на-стоять в течение 14 дней ежедневно взбалтывая. </p>
+            <p class="creature__paragraph">Но даже такое небольшое количество действий даст вам возможность почув-ствовать себя настоящим врачевателем и привнесет вашу энергетику в полу-чившийся целительный эликсир.</p>
+            <span class="creature__span">Настоя одной упаковки хватает на 4-5 месяцев</span>
+            <button class="creature__btn btn" type="button" name="button">создать эликсир молодости и здоровья</button>
+          </div>
+
         </div>
       </section>
       <section class="guarantee">
@@ -347,14 +349,16 @@
           <h3 class="guarantee__title">Если бальзам вам не понравится, мы вернем деньги. Сразу и без лишних вопросов. Мы дорожим своей репутацией и уверены в продукте на 100%</h3>
           <div class="guarantee__inner">
             <div class="guarantee__pic">
-              <img src="img/guarantee-certificate.jpg" width="280" height="434" alt="">
+              <img class="guarantee__img" src="img/guarantee-certificate.jpg" width="280" height="434" alt="">
             </div>
-            <div class="guarantee__text">
-              <span class="guarantee__span">но:</span>
-              <p class="guarantee__paragraph">Этот эликсир – именно то средство, которое вам всегда захочется иметь дома в аптечке и рекомендовать своим близким.</p>
-              <p class="guarantee__paragraph">К каждой упаковке «Шведской горечи» мы прикладываем немецкий сертифи-кат качества.</p>
+            <div class="guarantee__container">
+              <div class="guarantee__text">
+                <span class="guarantee__span">но:</span>
+                <p class="guarantee__paragraph">Этот эликсир – именно то средство, которое вам всегда захочется иметь дома в аптечке и рекомендовать своим близким.</p>
+                <p class="guarantee__paragraph">К каждой упаковке «Шведской горечи» мы прикладываем немецкий сертифи-кат качества.</p>
+                <button class="guarantee__btn btn" type="button" name="button">заказать сбор трав</button>
+              </div>
             </div>
-            <button class="guarantee__btn btn" type="button" name="button">заказать сбор трав</button>
           </div>
         </div>
       </section>
@@ -363,16 +367,30 @@
       <section class="info">
         <div class="info__wrap wrap">
           <ul class="info__list">
-            <li class="info__item">
-              <a class="info__link" href="#">Политика конфиденциальности</a>
+            <li class="info__item info__item--logo">
+              <a class="info__link info__link--logo" href="#">
+                <picture>
+                  <img class="info__img" src="img/logo-tablet.png" width="198" height="29" alt="логотип шведского сиропа">
+                </picture>
+              </a>
             </li>
-            <li class="info__item">
-              <a class="info__link" href="#">Отказ от ответственности</a>
-            </li>
-            <li class="info__item">
-              <a class="info__link" href="#">Согласие с рассылкой</a>
+            <ul class="info__list info__list--text">
+              <li class="info__item">
+                <a class="info__link info__link--text" href="#">Политика конфиденциальности</a>
+              </li>
+              <li class="info__item">
+                <a class="info__link  info__link--text" href="#">Отказ от ответственности</a>
+              </li>
+              <li class="info__item">
+                <a class="info__link  info__link--text" href="#">Согласие с рассылкой</a>
+              </li>
+            </ul>
+            <li class="info__item info__item--phone">
+              <a class="info__link info__link--phone" href="tel:8800 000-00-00">8800 000-00-00</a>
+              <span class="info__span info__span--phone">Звонок бесплатный</span>
             </li>
           </ul>
+
         </div>
       </section>
     </footer>
