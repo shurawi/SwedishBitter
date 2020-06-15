@@ -67,7 +67,7 @@ img {
   }
 
   @media (min-width: $desktop-width) {
-    width: 1200px;
+    width: 1920px;
     margin: 0 auto;
   }
 }
@@ -92,17 +92,8 @@ img {
     position: relative;
     height: 70px;
   }
-}
 
-/*.btn__span {
-  @media (min-width: $tablet-width) {
-    &::after {
-      position: absolute;
-      width: 31px;
-      height: 9px;
-      content: '';
-      background: url("../img/icon-arrow.svg");
-      fill: red;
-    }
+  @media (min-width: $desktop-width) {
+    font-size: 14px;
   }
-}*/
+}

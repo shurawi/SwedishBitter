@@ -4,6 +4,11 @@
   @media (min-width: $tablet-width) {
     background-color: #f6f9f3;
   }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    padding: 200px 100px 0;
+  }
 }
 
 .guarantee__head {
@@ -19,6 +24,13 @@
     font-size: 40px;
     line-height: 50px;
     background-color: #ffffff;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 200px;
+    left: 375px;
+    background-color: inherit;
   }
 }
 
@@ -36,6 +48,15 @@
     font-size: 14px;
     line-height: 24px;
   }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 320px;
+    left: 430px;
+    right: 945px;
+    padding: 0;
+    text-align: left;
+  }
 }
 
 .guarantee__inner {
@@ -46,6 +67,18 @@
     padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 20px 260px 0;
+    justify-content: flex-start;
+  }
+}
+
+.guarantee__pic {
+  @media (min-width: $desktop-width) {
+    margin: 0 45px 0 25px;
+    order: 2;
   }
 }
 
@@ -59,11 +92,18 @@
     width: 414px;
     background-color: #ffffff;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    margin: auto 60px 0 85px;
+  }
 }
 
 .guarantee__text {
   @media (min-width: $tablet-width) {
+    position: relative;
     margin: 20px;
+    padding: 50px 0 0 50px;
     border: 2px solid #c8dcba;
   }
 }
@@ -78,6 +118,15 @@
   color: #a4c58c;
   text-transform: uppercase;
   text-align: center;
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: -13px;
+    left: 50px;
+    margin: 0;
+    padding: 0 5px;
+    background-color: #ffffff;
+  }
 }
 
 .guarantee__paragraph {
@@ -91,6 +140,11 @@
     font-size: 16px;
     line-height: 22px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
 }
 
 .guarantee__btn {
@@ -99,5 +153,10 @@
   @media (min-width: $tablet-width) {
     margin-top: 67px;
     width: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 352px;
+    margin: auto 0 0 auto;
   }
 }

@@ -7,6 +7,21 @@
   @media (min-width: $tablet-width) {
     padding: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    padding: 250px 100px 0;
+  }
+}
+
+.structure__info {
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 190px;
+    right: 270px;
+    width: 585px;
+    margin: 0 0 0 auto;
+  }
 }
 
 .structure__head {
@@ -21,6 +36,21 @@
     padding: 70px 10px 50px;
     font-size: 30px;
     line-height: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 0 38px 0;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+  }
+}
+
+.structure__br {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: inline;
   }
 }
 
@@ -51,6 +81,17 @@
       left: -22px;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding: 0 90px 35px 50px;
+    font-size: 16px;
+    line-height: 22px;
+
+    &::before {
+      left: 25px;
+    }
+  }
 }
 
 .structure__list {
@@ -59,6 +100,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 260px;
+    justify-content: flex-start;
   }
 }
 
@@ -73,11 +119,26 @@
     width: 44%;
     margin-bottom: 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 270px;
+    margin: 0 15px 30px;
+  }
 }
 
 .structure__item:last-child {
   @media (min-width: $tablet-width) {
     margin: 0 auto 0 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 15px 0 auto;
+  }
+}
+
+.structure__item:nth-child(2) {
+  @media (min-width: $desktop-width) {
+    margin-right: 316px;
   }
 }
 
@@ -106,6 +167,10 @@
   position: relative;
   display: block;
   right: -125px;
+
+  @media (min-width: $desktop-width) {
+    right: -115px;
+  }
 }
 
 .structure__span--archangelica {
@@ -184,6 +249,14 @@
     background-color: #ffffff;
     border: 2px solid #c8dcba;
   }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    width: 831px;
+    left: 0;
+    bottom: 0px;
+    padding: 80px 60px 0;
+  }
 }
 
 .structure__paragraph--footer {
@@ -200,10 +273,27 @@
     padding: 51px 0 52px 30px;
     text-align: left;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 0 20px 0;
+  }
+}
+
+.structure__text .structure__paragraph--footer:last-of-type {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: inline-block;
+  }
 }
 
 .structure__btn {
   @media (min-width: $tablet-width) {
     width: 310px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 350px;
+    margin: 5px -60px 0 auto;
   }
 }

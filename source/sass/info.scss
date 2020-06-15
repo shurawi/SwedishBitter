@@ -1,5 +1,11 @@
 @import "variables.scss";
 
+.info__wrap {
+    @media (min-width: $desktop-width) {
+      padding: 0 100px
+    }
+}
+
 .info__list {
   @media (min-width: $tablet-width) {
     margin: 0 20px;
@@ -8,9 +14,13 @@
     justify-content: space-between;
     align-items: center;
   }
+
+    @media (min-width: $desktop-width) {
+      margin: 0 275px;
+    }
 }
 
-.info__list--text {
+.info__catalog {
   margin: 25px 0;
   list-style: none;
 
@@ -18,6 +28,10 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
   }
 }
 
@@ -39,6 +53,15 @@
 
   @media (min-width: $tablet-width) {
     display: block;
+  }
+}
+
+.info__point {
+  margin-top: 10px;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    margin: 0 30px;
   }
 }
 
@@ -66,6 +89,12 @@
       background: url("../img/icon-phone.svg");
     }
   }
+
+    @media (min-width: $desktop-width) {
+      &::before {
+        left: -30px;
+      }
+    }
 }
 
 .info__span {

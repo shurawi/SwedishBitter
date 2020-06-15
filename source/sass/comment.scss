@@ -6,6 +6,10 @@
   @media (min-width: $tablet-width) {
     padding-bottom: 70px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 190px 100px 0;
+  }
 }
 
 .comment__head {
@@ -21,6 +25,14 @@
     font-size: 30px;
     line-height: 40px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 260px;
+    padding: 0;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+  }
 }
 
 .comment__inner {
@@ -30,6 +42,10 @@
   @media (min-width: $tablet-width) {
     margin: 0;
     padding: 48px 0 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 260px;
   }
 }
 
@@ -52,6 +68,13 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 400px;
+    margin: 0;
+    padding: 0 0 0 85px;
+    text-align: left;
+  }
 }
 
 .comment__button--enable {
@@ -72,6 +95,12 @@
   @media (min-width: $tablet-width) {
     margin: 40px 0;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .comment__item {
@@ -90,6 +119,25 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    margin: 70px 15px 20px;
+    padding-left: 70px;
+
+    &::before {
+      top: -20px;
+      left: 70px;
+    }
+  }
+}
+
+.comment__item:nth-child(2n) {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
   }
 }
 
@@ -114,6 +162,14 @@
   }
 }
 
+.comment__controls {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+}
+
 .comment__link {
   display: block;
   font-size: 14px;
@@ -122,13 +178,19 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-weight: 900;
   text-align: center;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 45px;
+  }
 }
 
 .comment__container {
-  margin-bottom: 25px;
-
   @media (min-width: $tablet-width) {
     padding: 0 90px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 
@@ -137,9 +199,14 @@
 }
 
 .comment__btn {
+  margin: 25px 0 0;
   padding: 0 30px;
 
   @media (min-width: $tablet-width) {
     width: 587px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
   }
 }

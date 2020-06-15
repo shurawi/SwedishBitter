@@ -12,6 +12,14 @@
     position: relative;
     background: url("../img/head-back-tablet.jpg") no-repeat;
   }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    height: 544px;
+    padding: 0 100px;
+    background: url("../img/head-back-desktop.jpg") no-repeat;
+    background-size: 100%;
+  }
 }
 
 .banner__text {
@@ -23,6 +31,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 875px;
+    padding-top: 165px;
   }
 }
 
@@ -53,6 +66,11 @@
     line-height: 60px;
     text-align: left;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 20px;
+    font-size: 60px;
+  }
 }
 
 .banner__paragraph {
@@ -63,6 +81,11 @@
     padding-top: 15px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 360px;
+    padding-top: 35px;
   }
 }
 
@@ -76,6 +99,13 @@
     margin: -275px 20px 0;
     width: 296px;
     height: 648px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 98px;
+    left: 499px;
+    margin: 0;
   }
 }
 
@@ -96,6 +126,14 @@
     padding: 20px;
     background-color: #ffffff;
     z-index: 3;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 440px;
+    left: 975px;
+    margin: 0;
+    padding: 0;
   }
 }
 

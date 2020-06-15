@@ -7,6 +7,10 @@
   @media (min-width: $tablet-width) {
     padding: 0 20px 0 125px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 325px 0 0;
+  }
 }
 
 .statistics__list {
@@ -19,6 +23,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 360px;
   }
 }
 
@@ -33,24 +41,36 @@
     width: 41%;
     padding: 0;
   }
-}
 
-.statistics__item:nth-child(2n) {
-  @media (min-width: $tablet-width)  {
-
+  @media (min-width: $desktop-width) {
+    width: 270px;
+    margin: 0 15px;
+    padding: 0 0 0 70px;
   }
 }
 
 .statistics__item--europeans {
   padding-right: 20px;
+
+  @media (min-width: $desktop-width) {
+    padding-right: 0;
+  }
 }
 
 .statistics__item--autor {
   padding-right: 70px;
+
+  @media (min-width: $desktop-width) {
+    padding-right: 0;
+  }
 }
 
 .statistics__item--index {
   padding-right: 60px;
+
+  @media (min-width: $desktop-width) {
+    padding-right: 0;
+  }
 }
 
 .statistics__head {
@@ -75,6 +95,11 @@
       height: 25px;
       border-radius: 50%;
       background-color: #e4eddc;
+
+      @media (min-width: $desktop-width) {
+        top: -30px;
+        left: -40px;
+      }
     }
   }
 }
@@ -93,5 +118,9 @@
 
   @media (min-width: $tablet-width) {
     font-size: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
   }
 }
