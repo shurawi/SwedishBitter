@@ -16,6 +16,9 @@
             <li class="head__item head__item--logo">
               <a class="head__link head__link--logo" href="#">
                 <picture>
+                  <source type="image/webp" srcset="img/logo-tablet.webp" media="(min-width: 767px)">
+                  <source type="image/webp" srcset="img/logo-mobile.webp">
+
                   <source srcset="img/logo-tablet.png" media="(min-width: 767px)">
                   <img class="head__img" src="img/logo-mobile.jpg" width="110" height="16" alt="логотип шведского сиропа">
                 </picture>
@@ -41,8 +44,11 @@
           </div>
           <div class="banner__pic">
             <picture>
+              <source type="image/webp" srcset="img/head-pack-tablet.webp" media="(min-width: 767px)">
+              <source type="image/webp" srcset="img/head-pack-mobile.webp">
+
               <source srcset="img/head-pack-tablet.png" media="(min-width: 767px)">
-              <img class="banner__img" src="img/head-pack-mobile.png" width="86" height="188" alt="">
+              <img class="banner__img" src="img/head-pack-mobile.png" width="86" height="188" alt="Изображение упаковки бальзама Шведская горечь">
             </picture>
           </div>
           <form class="banner__form" action="index.html" method="post">
@@ -137,7 +143,11 @@
             </fieldset>
           </form>
           <div class="catalog__inner">
-            <img class="catalog__img" src="img/catalog-back-tablet.jpg" width="500" height="689" alt="">
+            <picture>
+              <source type="image/webp" srcset="img/catalog-back-tablet.webp" media="(min-width: 767px)">
+
+              <img class="catalog__img" src="img/catalog-back-tablet.jpg" width="500" height="689" alt="Скелет человека с мышцами">
+            </picture>
             <div class="catalog__border">
               <div class="catalog__text">
                 <p class="catalog__paragraph">Более 2 000 покупателей доказали эффективность «Шведской горечи» в каждом из этих случаев</p>
@@ -162,9 +172,13 @@
           </div>
           <div class="advanteges__pic">
             <picture>
+              <source type="image/webp" srcset="img/advanteges-back-desktop.webp" media="(min-width: 1920px)">
+              <source type="image/webp" srcset="img/advanteges-back-tablet.webp" media="(min-width: 767px)">
+              <source type="image/webp" srcset="img/advanteges-back-mobile.webp">
+
               <source srcset="img/advanteges-back-desktop.jpg" media="(min-width: 1920px)">
               <source srcset="img/advanteges-back-tablet.jpg" media="(min-width: 767px)">
-              <img class="advanteges__img" src="img/advanteges-back-mobile.jpg" width="320" height="244" alt="">
+              <img class="advanteges__img" src="img/advanteges-back-mobile.jpg" width="320" height="244" alt="Изображение девушки, пьющей бальзам из кружки">
             </picture>
             <div class="advanteges__inner">
               <div class="advanteges__text">
@@ -189,9 +203,13 @@
             <div class="stories__inner">
               <div class="stories__pic">
                 <picture>
+                  <source type="image/webp" srcset="img/stories-back-desktop.webp" media="(min-width: 1920px)">
+                  <source type="image/webp" srcset="img/stories-back-tablet.webp" media="(min-width: 767px)">
+                  <source type="image/webp" srcset="img/stories-back-mobile.webp">
+
                   <source srcset="img/stories-back-desktop.jpg" media="(min-width: 1920px)">
                   <source srcset="img/stories-back-tablet.jpg" media="(min-width: 767px)">
-                  <img class="stories__img" src="img/stories-back-mobile.jpg" width="320" height="388" alt="">
+                  <img class="stories__img" src="img/stories-back-mobile.jpg" width="320" height="388" alt="Изображение врача эпохи Возрождения Парацельса">
                 </picture>
               </div>
               <form class="stories__form" action="index.html" method="post">
@@ -216,21 +234,21 @@
               <span class="profit__title">01</span>
               <p class="profit__paragraph">сбор трав</p>
               <object class="profit__pic profit__pic--herb" type="image/svg+xml" data="icon-herb.svg">
-                <img class="porfit__img porfit__img--herb" src="img/icon-herb.svg" width="85" height="85" alt="">
+                <img class="porfit__img porfit__img--herb" src="img/icon-herb.svg" width="85" height="85" alt="Иконка ступы с травами">
               </object>
             </div>
             <div class="profit__item">
               <span class="profit__title">02</span>
               <p class="profit__paragraph">инструкция по применению</p>
-              <object class="profit__pic profit__pic--book" type="image/svg+xml" data="icon-herb.svg">
-                <img class="porfit__img porfit__img--book" src="img/icon-book.svg" width="97" height="70" alt="">
+              <object class="profit__pic profit__pic--book" type="image/svg+xml" data="icon-book.svg">
+                <img class="porfit__img porfit__img--book" src="img/icon-book.svg" width="97" height="70" alt="Иконка раскрытой книги">
               </object>
             </div>
             <div class="profit__item">
               <span class="profit__title">03</span>
               <p class="profit__paragraph">сертификат качества</p>
-              <object  class="profit__pic profit__pic--certificate" type="image/svg+xml" data="icon-herb.svg">
-                <img class="porfit__img porfit__img--certificate" src="img/icon-certificate.svg" width="82" height="70" alt="">
+              <object  class="profit__pic profit__pic--certificate" type="image/svg+xml" data="icon-certificate.svg">
+                <img class="porfit__img porfit__img--certificate" src="img/icon-certificate.svg" width="82" height="70" alt="Иконка сертификата">
               </object>
             </div>
           </div>
@@ -246,52 +264,52 @@
           <div class="structure__list">
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 01</span>
-              <img class="structure__img structure__img--archangelica" src="img/structure-angelica-archangelica.jpg"  width="171" height="247" alt="">
+              <img class="structure__img structure__img--archangelica" src="img/structure-angelica-archangelica.jpg"  width="171" height="247" alt="Изображение растения дягиль лекарственный">
               <span  class="structure__span structure__span--text structure__span--archangelica">Angelica archangelica</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 02</span>
-              <img class="structure__img structure__img--acaulis" src="img/structure-carlina-acaulis.jpg"  width="188" height="251" alt="">
+              <img class="structure__img structure__img--acaulis" src="img/structure-carlina-acaulis.jpg"  width="188" height="251" alt="Изображение растения колючник бесстебельный">
               <span  class="structure__span structure__span--text structure__span--acaulis">Carlina acaulis</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 03</span>
-              <img class="structure__img structure__img--camphora" src="img/structure-cunnamomum-camphora.jpg" width="211" height="237" alt="">
+              <img class="structure__img structure__img--camphora" src="img/structure-cunnamomum-camphora.jpg" width="211" height="237" alt="Изображение растения коричник камфорный">
               <span  class="structure__span structure__span--text structure__span--camphora">Cunnamomum camphora</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 04</span>
-              <img class="structure__img structure__img--ornus" src="img/structure-fraxinus-ornus.jpg" width="210" height="234" alt="">
+              <img class="structure__img structure__img--ornus" src="img/structure-fraxinus-ornus.jpg" width="210" height="234" alt="Изображение растения ясень манновый">
               <span  class="structure__span structure__span--text structure__span--ornus">Fraxinus ornus</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 05</span>
-              <img class="structure__img structure__img--molmol" src="img/structure-cammiphora-molmol.jpg" width="134" height="226" alt="">
+              <img class="structure__img structure__img--molmol" src="img/structure-cammiphora-molmol.jpg" width="134" height="226" alt="Изображение растения коммифора мирровая">
               <span  class="structure__span structure__span--text structure__span--molmol">Cammiphora molmol</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 06</span>
-              <img class="structure__img structure__img--palmatum" src="img/structure-pheum-palmatum.jpg" width="183" height="239" alt="">
+              <img class="structure__img structure__img--palmatum" src="img/structure-pheum-palmatum.jpg" width="183" height="239" alt="Изображение растения ревень пальчатый">
               <span  class="structure__span structure__span--text structure__span--palmatum">Pheum palmatum</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 07</span>
-              <img class="structure__img structure__img--sativus" src="img/structure-crocus-sativus.jpg" width="108" height="242" alt="">
+              <img class="structure__img structure__img--sativus" src="img/structure-crocus-sativus.jpg" width="108" height="242" alt="Изображение растения шафран посевной">
               <span  class="structure__span structure__span--text structure__span--sativus">Crocus sativus</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 08</span>
-              <img class="structure__img structure__img--angustifolia" src="img/structure-cassia-angustifolia.jpg" width="181" height="233" alt="">
+              <img class="structure__img structure__img--angustifolia" src="img/structure-cassia-angustifolia.jpg" width="181" height="233" alt="Изображение растения кассия остроли́стная">
               <span  class="structure__span structure__span--text structure__span--angustifolia">Cassia angustifolia</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 09</span>
-              <img class="structure__img structure__img--absinthium" src="img/structure-artemisia-absinthium.jpg" width="160" height="253" alt="">
+              <img class="structure__img structure__img--absinthium" src="img/structure-artemisia-absinthium.jpg" width="160" height="253" alt="Изображение растения полынь горькая">
               <span  class="structure__span structure__span--text structure__span--absinthium">Artemisia absinthium</span>
             </div>
             <div class="structure__item">
               <span class="structure__span structure__span--num">— 10</span>
-              <img class="structure__img structure__img--zedoaria" src="img/structure-curcuma-zedoaria.jpg" width="145" height="240" alt="">
+              <img class="structure__img structure__img--zedoaria" src="img/structure-curcuma-zedoaria.jpg" width="145" height="240" alt="Изображение растения куркума цедоария">
               <span  class="structure__span structure__span--text structure__span--zedoaria">Curcuma zedoaria</span>
             </div>
             <div class="structure__item">
@@ -385,8 +403,11 @@
           <div class="guarantee__inner">
             <div class="guarantee__pic">
               <picture>
+                <source type="image/webp" srcset="img/guarantee-certificate-desktop.webp">
+                <source type="image/webp" srcset="img/guarantee-certificate-mobile.webp">
+
                 <source srcset="img/guarantee-certificate-desktop.jpg" media="(min-width: 1920px)">
-                <img class="guarantee__img" src="img/guarantee-certificate-mobile.jpg" width="280" height="434" alt="">
+                <img class="guarantee__img" src="img/guarantee-certificate-mobile.jpg" width="280" height="434" alt="Изображение сертификата качества бальзама Шведская горечь">
               </picture>
             </div>
             <div class="guarantee__container">
@@ -408,6 +429,8 @@
             <li class="info__item info__item--logo">
               <a class="info__link info__link--logo" href="#">
                 <picture>
+                  <source type="image/webp" srcset="img/logo-tablet.webp">
+
                   <img class="info__img" src="img/logo-tablet.png" width="198" height="29" alt="логотип шведского сиропа">
                 </picture>
               </a>
