@@ -115,21 +115,6 @@
   height: 297px;
   background-color: #ffffff;
 
-  &:hover {
-    transition: 3s;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 23px;
-      left: 20px;
-      width: 85%;
-      height: 85%;
-      background: linear-gradient(to bottom right, rgba(179, 211, 147, 0.6), rgba(128, 168, 79, 0.6));
-      z-index: 2;
-    }
-  }
-
   @media (min-width: $tablet-width) {
     width: 44%;
     margin-bottom: 30px;
@@ -154,6 +139,32 @@
 .structure__item:nth-child(2) {
   @media (min-width: $desktop-width) {
     margin-right: 316px;
+  }
+}
+
+.structure__hover {
+  display: none;
+}
+
+.structure__hover {
+  @media(min-width: $tablet-width) {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+    width: 85%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom right, rgba(179, 211, 147, 0.6), rgba(128, 168, 79, 0.6));
+    transition: all 0.5s ease;
+    z-index: 2;
+    opacity: 0;
+  }
+}
+
+.structure__item:hover .structure__hover {
+  @media(min-width: $desktop-width) {
+    opacity: 1;
   }
 }
 
@@ -189,19 +200,13 @@
 }
 
 .structure__span--hover {
-  position: absolute;
-  top: 45%;
-  display: none;
+  margin-top: 50%;
   padding: 0 20px;
   text-align: center;
   font-weight: 700;
   color: #ffffff;
   transform: rotate(0deg);
   z-index: 3;
-}
-
-.structure__item:hover .structure__span--hover {
-  display: block;
 }
 
 .structure__span--archangelica {
