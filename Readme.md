@@ -6,8 +6,11 @@ In this project I learn how work: Gulp; SASS; flex-box; position: relative; posi
 
 ## Before launch
 Download and install [Node](https://nodejs.org/en/).
+
 For Windows download and run [cmder](https://cmder.net/) or something else.
+
 In cmder settings --> startup check "specified named task" on "bash::bash" and save settings.
+
 Download this landing
 
 ## Launch 
