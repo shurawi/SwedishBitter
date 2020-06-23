@@ -1,6 +1,6 @@
 # Swedish bitter - Шведская горечь)
 
-<img align="left" width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/tree/master/source/img/logo-tablet.png">
+<img align="left" width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/blob/master/source/img/logo-tablet.png">
 
 In this project I learn how work: Gulp; SASS; Webp; flex-box; position: relative; position: absolute; &lt;picture&gt;
 
