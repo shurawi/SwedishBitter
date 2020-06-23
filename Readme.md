@@ -1,4 +1,4 @@
-<img align="center" width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/blob/master/source/img/logo-tablet.png">
+<img width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/blob/master/source/img/logo-tablet.png">
 
 # Swedish bitter - Шведская горечь)
 
@@ -11,7 +11,7 @@ For Windows download and run [cmder](https://cmder.net/) or something else.
 
 In cmder settings --> startup check "specified named task" on "bash::bash" and save settings.
 
-Download this [landing](href="/shurawi/SwedishBitter/archive/master.zip")
+Download this web project
 
 ## Launch 
 Run cmder and in command line enter:
