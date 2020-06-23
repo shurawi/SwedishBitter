@@ -11,19 +11,19 @@ For Windows download and run [cmder](https://cmder.net/) or something else.
 
 In cmder settings --> startup check "specified named task" on "bash::bash" and save settings.
 
-Download this landing
+Download this [landing](href="/shurawi/SwedishBitter/archive/master.zip")
 
 ## Launch 
-Run cmder and in command line enter
+Run cmder and in command line enter:
 ```bash
 cd ~/[directory name]
 npm i
 ```
-After installing all dependences for dev build enter
+After installing all dependences for dev build enter:
 ```bush
 npm run startsource
 ```
-for production build run
+for production build run:
  ```bush
  npm run build
  ```
