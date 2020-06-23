@@ -1,8 +1,8 @@
+<img align="center" width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/blob/master/source/img/logo-tablet.png">
+
 # Swedish bitter - Шведская горечь)
 
-<img align="left" width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/blob/master/source/img/logo-tablet.png">
-
-In this project I learn how work: Gulp; SASS; Webp; flex-box; position: relative; position: absolute; &lt;picture&gt;
+In this project I learn how work: Gulp; SASS; flex-box; position: relative; position: absolute; &lt;picture&gt;
 
 ## Before launch
 Download and install [Node](https://nodejs.org/en/)
@@ -11,8 +11,7 @@ In cmder settings --> startup check "specified named task" on "bash::bash" and s
 Download this landing
 
 ## Launch 
-Run cmder
-In cmder command line enter
+Run cmder and in command line enter
 ```bash
 cd ~/[directory name]
 npm i
