@@ -43,7 +43,7 @@ img {
   padding: 0;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -73,11 +73,10 @@ img {
 }
 
 .btn {
-  display: block;
   width: 320px;
   height: 58px;
   margin: 0 auto;
-  background-color: #7eb252;
+  display: block;
   color: #ffffff;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   font-size: 12px;
@@ -85,8 +84,10 @@ img {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+  background-color: #7eb252;
   outline: none;
   border: none;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     position: relative;
