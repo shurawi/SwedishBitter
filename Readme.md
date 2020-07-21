@@ -23,7 +23,7 @@ After installing all dependences for dev build enter:
 ```bush
 npm run startsource
 ```
-for production build run:
+for production build enter:
  ```bush
- npm run build
+ npm run start
  ```
