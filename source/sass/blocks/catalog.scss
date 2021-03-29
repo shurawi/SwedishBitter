@@ -16,7 +16,6 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 95px;
-    padding: 0 200px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -50,10 +49,9 @@
   @media (min-width: $desktop-width) {
     margin: 0 100px;
     padding: 190px 0 168px 260px;
-    background: linear-gradient(to bottom, #ffffff 35%, #f6f9f3 35%, #f6f9f3 100%);
+    background: linear-gradient(to bottom, #ffffff 25%, #f6f9f3 25%, #f6f9f3 100%);
   }
 }
-
 
 .catalog__field {
   margin: 0;
@@ -94,7 +92,6 @@
   padding-top: 15px;
   display: flex;
   justify-content: flex-start;
-
 }
 
  .catalog__item--footer {
@@ -168,7 +165,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 0;
-    left: 1045px;
+    left: 55%;
     margin: 0;
   }
 }

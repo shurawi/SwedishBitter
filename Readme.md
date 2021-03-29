@@ -2,7 +2,7 @@
 
 # Swedish bitter - Шведская горечь)
 
-In this project I learn how work: Gulp; SASS; flex-box; position: relative; position: absolute; &lt;picture&gt;
+In this project I learn how work: Gulp; SASS; flex-box; position: relative; position: absolute; tag &lt;picture&gt;
 
 ## Before launch
 Download and install [Node](https://nodejs.org/en/).
@@ -14,7 +14,8 @@ In cmder settings --> startup check "specified named task" on "bash::bash" and s
 Download this web project
 
 ## Launch 
-Run cmder and in command line enter:
+1.Run cmder
+2.In command line enter [directory name] where you copied this repo and press enter:
 ```bash
 cd ~/[directory name]
 npm i
