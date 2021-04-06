@@ -1,13 +1,15 @@
 <img width="198" height="29" alt="Swedish bitter" src="https://github.com/shurawi/SwedishBitter/blob/master/source/img/logo-tablet.png">
 
-# Swedish bitter - Шведская горечь)
+# Swedish bitter
 
 This landing-page has three states:
 1.mobile
 2.tablet
 3.desktop
 
-In this project I used: mobile-first layout, Gulp; SASS; flex-box
+In this project I used: mobile-first layout, Gulp, SASS(SCSS), flex-box.
+
+To following this link you can see [this page](https://shurawi.github.io/swedishbitter-pv/)
 
 ## Before launch
 Download and install [Node](https://nodejs.org/en/).
