@@ -50,11 +50,11 @@
 }
 
 .profit__item {
+  position: relative;
   margin: 50px 0 90px;;
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    position: relative;
     margin: 0;
     padding: 10px 0 20px;
     width: 32%;
@@ -109,21 +109,17 @@
 }
 
 .profit__pic {
-  position: relative;
+  position: absolute;
   display: block;
-
-  @media (min-width: $tablet-width) {
-    position: absolute;
-  }
 }
 
 .profit__pic--herb {
-  margin-top: -153px;
+  top: 28px;
+  left: 108px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
-    top: 43px;
-    left: 85px;
+    top: 30px;
+    left: 69px;
   }
 
   @media (min-width: $desktop-width) {
@@ -133,12 +129,12 @@
 }
 
 .profit__pic--book {
-  margin-top: -143px;
+  top: 45px;
+  left: 105px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
-    top: 52px;
-    left: 78px;
+    top: 45px;
+    left: 66px;
   }
 
   @media (min-width: $desktop-width) {
@@ -148,10 +144,10 @@
 }
 
 .profit__pic--certificate {
-  margin-top: -145px;
+  top: 47px;
+  left: 110px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
     top: 47px;
     left: 82px;
   }
