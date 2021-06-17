@@ -144,31 +144,24 @@
 
 
 .structure__hover {
-  @media(min-width: $tablet-width) {
-    position: absolute;
-    top: 23px;
-    left: 20px;
-    width: 85%;
-    height: 85%;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to bottom right, rgba(179, 211, 147, 0.6), rgba(128, 168, 79, 0.6));
-    transition: all 0.5s ease;
-    z-index: 2;
-    opacity: 0;
-  }
-}
-
-.structure__item:hover .structure__hover {
-  @media(min-width: $tablet-width) {
-    opacity: 1;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom right, rgba(179, 211, 147, 0.6), rgba(128, 168, 79, 0.6));
+  transition: all 0.5s ease;
+  z-index: 2;
+  opacity: 0;
 }
 
 .structure__img {
+  position: relative;
+  top: 30px;
   display: block;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .structure__span {
@@ -184,12 +177,14 @@
   display: block;
   top: 20px;
   left: 5px;
+  transition: all 0.5s ease;
 }
 
 .structure__span--text {
   position: relative;
   display: block;
   right: -125px;
+  transition: all 0.5s ease;
 
   @media (min-width: $desktop-width) {
     right: -115px;
@@ -201,7 +196,7 @@
   padding: 0 20px;
   text-align: center;
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
   transform: rotate(0deg);
   z-index: 3;
 }
@@ -329,4 +324,19 @@
     width: 350px;
     margin: 5px -60px 0 auto;
   }
+}
+
+.structure__item:hover .structure__hover {
+  font-family: "Montserrat-Bold";
+  opacity: 1;
+}
+
+.structure__item:hover .structure__span--text {
+  opacity: 0;
+}
+
+.structure__item:hover .structure__span--num {
+  font-family: "Montserrat-Bold";
+  color: #000000;
+  opacity: 1;
 }
