@@ -1,6 +1,7 @@
 @import "variables.scss";
 
 .comment__wrap {
+  padding-top: 20px;
   background-color: #f6f9f3;
 
   @media (min-width: $tablet-width) {
@@ -13,7 +14,7 @@
 }
 
 .comment__head {
-  padding: 55px 10px 0;
+  padding: 0 10px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -36,7 +37,7 @@
 }
 
 .comment__inner {
-  margin-top: 25px;
+  margin-top: 20px;
   padding: 0 10px;
 
   @media (min-width: $tablet-width) {
@@ -89,8 +90,7 @@
 
 .comment__list {
   list-style: none;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
 
   @media (min-width: $tablet-width) {
     margin: 40px 0;
@@ -199,7 +199,7 @@
 }
 
 .comment__btn {
-  margin: 25px 0 0;
+  margin: 20px 0 0;
   padding: 0 30px;
 
   @media (min-width: $tablet-width) {

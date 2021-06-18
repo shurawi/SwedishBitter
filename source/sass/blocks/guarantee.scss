@@ -1,6 +1,8 @@
 @import "variables.scss";
 
 .guarantee__wrap {
+  padding-top: 20px;
+
   @media (min-width: $tablet-width) {
     background-color: #f6f9f3;
   }
@@ -12,7 +14,6 @@
 }
 
 .guarantee__head {
-  padding-top: 55px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -35,7 +36,7 @@
 }
 
 .guarantee__title {
-  padding: 15px 20px 0;
+  padding: 20px 20px 0;
   font-size: 12px;
   line-height: 20px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -88,6 +89,8 @@
 }
 
 .guarantee__container {
+  padding-top: 20px;
+
   @media (min-width: $tablet-width) {
     width: 414px;
     background-color: #ffffff;
@@ -110,7 +113,6 @@
 
 .guarantee__span {
   display: block;
-  margin-top: 30px;
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -148,7 +150,7 @@
 }
 
 .guarantee__btn {
-  margin-top: 25px;
+  margin-top: 20px;
 
   @media (min-width: $tablet-width) {
     margin-top: 67px;

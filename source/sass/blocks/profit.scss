@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .profit__wrap {
-  padding: 50px 10px 0;
+  padding: 20px 10px 0;
   background-color: #f6f9f3;
 
   @media (min-width: $desktop-width) {
@@ -32,6 +32,7 @@
 }
 
 .profit__list {
+  padding-top: 20px;
   padding-bottom: 25px;
 
   @media (min-width: $tablet-width) {
@@ -51,7 +52,7 @@
 
 .profit__item {
   position: relative;
-  margin: 50px 0 90px;;
+  margin: 0 0 50px;;
   text-align: center;
 
   @media (min-width: $tablet-width) {

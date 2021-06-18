@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .structure__wrap {
-  padding: 70px 0 0;
+  padding: 0;
   background-color: #f6f9f3;
 
   @media (min-width: $tablet-width) {
@@ -110,7 +110,7 @@
 
 .structure__item {
   position: relative;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 0 10px;
   height: 297px;
   background-color: #ffffff;
@@ -141,7 +141,6 @@
     margin-right: 316px;
   }
 }
-
 
 .structure__hover {
   position: absolute;
@@ -288,7 +287,7 @@
 }
 
 .structure__paragraph--footer {
-  padding: 46px 50px;
+  padding: 40px 50px;
   line-height: 24px;
   text-align: center;
 
