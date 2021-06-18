@@ -5,7 +5,8 @@
   background-color: #f6f9f3;
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,7 +23,7 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    padding: 140px 10px 0;
+    padding: 0 10px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -42,7 +43,7 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    padding: 48px 0 0;
+    padding: 40px 0 0;
   }
 
   @media (min-width: $desktop-width) {

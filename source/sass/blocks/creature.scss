@@ -3,6 +3,10 @@
 .creature__wrap {
   padding-top: 20px;
 
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+  }
+
   @media (min-width: $desktop-width) {
     height: 775px;
     margin-top: 195px;
@@ -27,7 +31,7 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    margin: 65px;
+    margin: 40px 65px;
     padding: 65px 30px 65px 55px;
     text-align: left;
     border: 2px solid #c8dcba;

@@ -1,12 +1,12 @@
 @import "variables.scss";
 
-.info__wrap {
+.footer__wrap {
     @media (min-width: $desktop-width) {
       padding: 0 100px
     }
 }
 
-.info__list {
+.footer__list {
   @media (min-width: $tablet-width) {
     margin: 0 20px;
     padding: 25px 0;
@@ -21,7 +21,7 @@
     }
 }
 
-.info__catalog {
+.footer__catalog {
   margin: 20px 0;
   list-style: none;
 
@@ -36,12 +36,12 @@
   }
 }
 
-.info__item {
+.footer__item {
   margin-top: 10px;
   text-align: center;
 }
 
-.info__item--logo {
+.footer__item--logo {
   display: none;
 
   @media (min-width: $tablet-width) {
@@ -49,7 +49,7 @@
   }
 }
 
-.info__item--phone {
+.footer__item--phone {
   display: none;
 
   @media (min-width: $tablet-width) {
@@ -57,7 +57,7 @@
   }
 }
 
-.info__point {
+.footer__point {
   margin-top: 10px;
   text-align: center;
 
@@ -66,13 +66,13 @@
   }
 }
 
-.info__link {
+.footer__link {
   font-size: 12px;
   line-height: 22px;
   color: #9a9a9a;
 }
 
-.info__link--phone {
+.footer__link--phone {
   @media (min-width: $tablet-width) {
     position: relative;
     font-size: 20px;
@@ -84,7 +84,7 @@
       position: absolute;
       content: "";
       top: 5px;
-      left: -60px;
+      left: -35px;
       width: 15px;
       height: 15px;
       background: url("../img/icon-phone.svg") no-repeat;
@@ -98,7 +98,7 @@
     }
 }
 
-.info__span {
+.footer__span {
   @media (min-width: $tablet-width) {
     display: block;
     font-size: 14px;
