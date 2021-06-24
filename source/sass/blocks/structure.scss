@@ -10,17 +10,16 @@
 
   @media (min-width: $desktop-width) {
     position: relative;
-    padding: 250px 100px 0;
+    padding-top: 85px;
   }
 }
 
 .structure__info {
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 190px;
-    right: 270px;
-    width: 585px;
-    margin: 0 0 0 auto;
+    top: 85px;
+    right: 22px;
+    width: 325px;
   }
 }
 
@@ -39,9 +38,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 0 38px 0;
-    font-size: 40px;
-    line-height: 50px;
+    padding: 0 0 40px 0;
+    font-size: 25px;
+    line-height: 30px;
     text-align: left;
   }
 }
@@ -84,12 +83,12 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    padding: 0 90px 35px 50px;
-    font-size: 16px;
-    line-height: 22px;
+    padding: 0 30px 40px 30px;
+    font-size: 14px;
+    line-height: 20px;
 
     &::before {
-      left: 25px;
+      left: 5px;
     }
   }
 }
@@ -103,7 +102,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0 260px;
+    margin: 0 60px;
     justify-content: flex-start;
   }
 }
@@ -246,7 +245,7 @@
 
 .structure__span--main {
   position: relative;
-  padding: 130px 140px 0 50px;
+  padding: 107px 140px 0 50px;
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -278,11 +277,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    width: 831px;
-    left: 0;
-    bottom: 0px;
-    padding: 80px 60px 0;
+    width: 86%;
+    margin: 0 70px;
+    padding: 60px 60px 0;
   }
 }
 

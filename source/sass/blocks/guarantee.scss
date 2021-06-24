@@ -10,7 +10,7 @@
 
   @media (min-width: $desktop-width) {
     position: relative;
-    padding: 200px 100px 0;
+    padding: 85px 20px 0;
   }
 }
 
@@ -30,8 +30,8 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 200px;
-    left: 375px;
+    top: 100px;
+    left: 80px;
     background-color: inherit;
   }
 }
@@ -53,9 +53,9 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 320px;
-    left: 430px;
-    right: 945px;
+    top: 160px;
+    left: 80px;
+    right: 445px;
     padding: 0;
     text-align: left;
   }
@@ -72,14 +72,14 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 20px 260px 0;
-    justify-content: flex-start;
+    margin: 20px 0 0;
+    justify-content: space-between;
   }
 }
 
 .guarantee__pic {
   @media (min-width: $desktop-width) {
-    margin: 0 45px 0 25px;
+    margin: 0 45px;
     order: 2;
   }
 }
@@ -99,7 +99,7 @@
 
   @media (min-width: $desktop-width) {
     width: 570px;
-    margin: auto 60px 0 85px;
+    margin: auto 60px 0;
   }
 }
 

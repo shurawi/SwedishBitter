@@ -8,16 +8,6 @@
     padding: 0 20px;
     height: 105px;
   }
-
-  @media (min-width: $desktop-width) {
-    padding: 0;
-  }
-}
-
-.head__nav {
-  @media (min-width: $desktop-width) {
-    margin: 0 375px;
-  }
 }
 
 .head__item {

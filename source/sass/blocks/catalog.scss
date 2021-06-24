@@ -1,11 +1,5 @@
 @import "variables.scss";
 
-.catalog {
-  @media (min-width: $desktop-width) {
-    position: relative;
-  }
-}
-
 .catalog__wrap {
   padding-top: 20px;
 
@@ -14,7 +8,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 185px;
+    position: relative;
+    padding: 85px 20px 0;
   }
 }
 
@@ -32,15 +27,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    top: 30px;
-    left: 360px;
-    width: 470px;
-    margin: 0;
     padding: 0;
-    font-size: 40px;
-    line-height: 50px;
-    text-align: left;
+    font-size: 35px;
+    line-height: 40px;
   }
 }
 
@@ -52,9 +41,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0 100px;
-    padding: 190px 0 168px 260px;
-    background: linear-gradient(to bottom, #ffffff 25%, #f6f9f3 25%, #f6f9f3 100%);
+    padding: 42px 20px 103px;
+    background-color: #f6f9f3;
   }
 }
 
@@ -86,7 +74,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 685px;
+    flex-direction: column;
   }
 }
 
@@ -94,6 +82,10 @@
   padding-top: 15px;
   display: flex;
   justify-content: flex-start;
+
+  @media (min-width: $desktop-width) {
+    padding-top: 40px;
+  }
 }
 
  .catalog__item--footer {
@@ -105,6 +97,10 @@
  .catalog__item--footer:nth-child(2n) {
    @media (min-width: $tablet-width) {
      margin-left: 129px;
+   }
+
+   @media (min-width: $desktop-width) {
+     margin-left: 0;
    }
  }
 
@@ -125,13 +121,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    border: none;
-  }
-}
-
-.catalog__label--footer {
-  @media (min-width: $desktop-width) {
     font-size: 16px;
+    border: none;
   }
 }
 
@@ -166,8 +157,8 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 0;
-    left: 55%;
+    top: 225px;
+    left: 482px;
     margin: 0;
   }
 }

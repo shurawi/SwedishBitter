@@ -2,7 +2,7 @@
 
 .footer__wrap {
     @media (min-width: $desktop-width) {
-      padding: 0 100px
+      padding: 0 20px
     }
 }
 
@@ -17,7 +17,7 @@
   }
 
     @media (min-width: $desktop-width) {
-      margin: 0 275px;
+      margin: 0;
     }
 }
 
@@ -57,12 +57,23 @@
   }
 }
 
+.footer__item--confidentials {
+  @media (min-width: $desktop-width) {
+    margin-right: 30px;
+  }
+  }
+
 .footer__point {
   margin-top: 10px;
   text-align: center;
 
   @media (min-width: $desktop-width) {
-    margin: 0 30px;
+    width: 135px;
+    margin: 0 25px;
+
+    &:last-child {
+      margin: 0;
+    }
   }
 }
 
