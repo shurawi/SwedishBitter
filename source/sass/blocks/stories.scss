@@ -114,6 +114,7 @@
 }
 
 .stories__paragraph--form {
+  margin: 0;
   padding: 20px 30px;
   line-height: 22px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -179,13 +180,13 @@
 }
 
 .stories__text {
-  margin: 40px 20px 0;
+  margin: 20px 20px 0;
   padding: 20px 10px;
   border-top: 2px solid #7eb252;
   border-bottom: 2px solid #7eb252;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 40px;
+    margin: 40px 20px;
     padding: 0 125px;
   }
 
@@ -238,7 +239,7 @@
 
 .stories__span {
   display: block;
-  margin-top: 10px;
+  margin: 0;
   font-size: 12px;
   line-height: 30px;
   color: #9a9a9a;

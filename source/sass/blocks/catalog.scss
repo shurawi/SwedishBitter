@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .catalog__wrap {
-  padding-top: 20px;
+  padding: 20px 10px 0;
 
   @media (min-width: $tablet-width) {
     padding-top: 40px;
@@ -14,7 +14,6 @@
 }
 
 .catalog__head {
-  padding: 0 10px;
   font-size: 24px;
   line-height: 30px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
@@ -48,7 +47,7 @@
 
 .catalog__field {
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
   border: none;
   text-transform: uppercase;
 
@@ -88,21 +87,11 @@
   }
 }
 
- .catalog__item--footer {
-   @media (min-width: $tablet-width) {
-     width: 40%;
-   }
- }
-
- .catalog__item--footer:nth-child(2n) {
-   @media (min-width: $tablet-width) {
-     margin-left: 129px;
-   }
-
-   @media (min-width: $desktop-width) {
-     margin-left: 0;
-   }
- }
+.catalog__item--footer {
+  @media (min-width: $tablet-width) {
+    width: 40%;
+  }
+}
 
 .catalog__check {
   display: none;
